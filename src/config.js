@@ -6,7 +6,7 @@ module.exports = {
       {
         host: "", // Lavalink IP 
         password: "", // Lavalink Password
-        port: 433, // Lavalink Port
+        port: 443, // Lavalink Port
         retryDelay: 300000,
         retryAmount: 25,
         identifier: "", //Name of you lavalink 

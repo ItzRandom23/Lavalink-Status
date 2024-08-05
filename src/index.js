@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits, Partials } = require("discord.js");
 const { readdirSync } = require("fs");
-const { Manager } = require("erela.js");
+const { Manager } = require("magmastream");
 const { token, nodes, retryDelay, retryAmount } = require("./config");
 const colors = require("colors");
 
