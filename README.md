@@ -1,4 +1,4 @@
-<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Lavalink Status&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
+<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Lavalink_Status&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
 
 A Discord bot based on `discord.js` that sends the status of the Lavalink node used in music bots to play music.
 
@@ -62,4 +62,5 @@ A Discord bot based on `discord.js` that sends the status of the Lavalink node u
 2. Invite the bot to your Discord server before starting it up.
 
 ## Example Output
-https://media.discordapp.net/attachments/1118398421406068796/1270050249112682689/image.png?ex=66b249f7&is=66b0f877&hm=4f95fad3f199e9d0594715e2de6fbd59ba21e4e482f706a67bd0e3e2c0ff4534&=&format=webp&quality=lossless&width=968&height=556
+![preview](https://media.discordapp.net/attachments/1118398421406068796/1270050249112682689/image.png?ex=66b249f7&is=66b0f877&hm=4f95fad3f199e9d0594715e2de6fbd59ba21e4e482f706a67bd0e3e2c0ff4534&=&format=webp&quality=lossless&width=968&height=556))
+
