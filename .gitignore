@@ -1,0 +1,31 @@
+# Local credentials and configuration
+.env
+.env.*
+*.env
+*.env.*
+.envrc
+.envrc.*
+.npmrc
+.git-credentials
+!/.env.example
+
+# Private keys and certificate stores
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.pkcs12
+*.keystore
+
+# Runtime files
+.data/
+pulsify/
+magmastream/
+logs/
+*.log
+npm-debug.log*
+
+# Dependencies and test output
+node_modules/
+coverage/

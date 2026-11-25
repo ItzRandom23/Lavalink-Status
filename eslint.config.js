@@ -1,0 +1,36 @@
+module.exports = [{
+  files: ['src/**/*.js', 'test/**/*.js'],
+  languageOptions: {
+    sourceType: 'commonjs',
+    globals: {
+      AbortController: 'readonly',
+      AbortSignal: 'readonly',
+      Buffer: 'readonly',
+      console: 'readonly',
+      fetch: 'readonly',
+      performance: 'readonly',
+      process: 'readonly',
+      Response: 'readonly',
+      structuredClone: 'readonly',
+      TextDecoder: 'readonly',
+      URL: 'readonly',
+      URLSearchParams: 'readonly',
+    },
+  },
+  rules: {
+    'no-constant-condition': ['error', { checkLoops: 'none' }],
+    'no-duplicate-case': 'error',
+    'no-duplicate-imports': 'error',
+    'no-empty': 'error',
+    'no-fallthrough': 'error',
+    'no-redeclare': 'error',
+    'no-shadow-restricted-names': 'error',
+    'no-undef': 'error',
+    'no-unreachable': 'error',
+    'no-unused-vars': ['error', { args: 'none' }],
+    'prefer-const': 'error',
+    eqeqeq: 'error',
+  },
+}, {
+  ignores: ['.data/**', 'coverage/**'],
+}];
