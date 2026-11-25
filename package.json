@@ -17,7 +17,7 @@
   "dependencies": {
     "@discordjs/rest": "^2.6.3",
     "discord-api-types": "^0.38.50",
-    "pulsifyy": "0.1.1"
+    "pulsifyy": "0.1.2"
   },
   "devDependencies": {
     "eslint": "^10.15.0",
